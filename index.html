@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Time Zone Search</h1>
+      <h4>get up to date time zone and local time information</h4>
+    </header>
+    <div class="content">
+      <div class="container">
+        <div class="search">
+          <input
+            type="text"
+            name="city-name"
+            id="city-name"
+            placeholder="Search Your City and Any City You want"
+          />
+          <button onClick='searchCity()'>Search</button>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div id="city-description"></div>
+      <div id="timezone"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

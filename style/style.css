@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    text-align: center;
+    background-color: magenta;
+    padding: 30px;
+}
+
+.content {
+    border-bottom: 2px solid yellow;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.search button {
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: magenta;
+}
+
+.main {
+    background-color: plum;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#city-description {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.time-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
